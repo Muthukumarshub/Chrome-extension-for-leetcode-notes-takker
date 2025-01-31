@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCode Notes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 350px;
+            padding: 15px;
+            background: #f8f9fa;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        input, textarea, button {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        textarea {
+            height: 80px;
+        }
+        button {
+            background: #ff9500;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #cc7700;
+        }
+        .note-container {
+            margin-top: 10px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        .note {
+            background: white;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .note-title {
+            font-weight: bold;
+            color: #ff9500;
+        }
+        #me {
+            text-align: center;
+            color: #333;
+            font-size: 12px;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <h2>LeetCode Notes</h2>
+    <input type="text" id="search" placeholder="Search notes..." />
+    <h3 id="problemTitle"></h3>
+    <textarea id="note" placeholder="Write your notes here..."></textarea>
+    <button id="save">Save Note</button>
+
+    <h3>Saved Notes</h3>
+    <div class="note-container" id="notesList"></div>
+    <p id="me">By Muthukumar</p>
+
+    <script src="popup.js"></script>
+</body>
+</html>
