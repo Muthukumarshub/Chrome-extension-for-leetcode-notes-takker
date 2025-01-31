@@ -1,25 +1,26 @@
-#LeetCode Notes Taker Chrome Extension
-This Chrome extension allows LeetCode users to take and store notes for each problem they solve. It creates a separate note for every problem and displays it whenever the problem is revisited. This extension helps in keeping track of approaches, optimizations, or any other relevant information related to specific LeetCode problems.
+LeetCode Notes Taker Chrome Extension
+A Chrome extension designed for LeetCode users to easily take and store notes for each problem they solve. The extension automatically links notes to individual problems and displays them whenever the problem is revisited, making it easier to keep track of solutions, optimizations, and approaches.
 
-#Features
-Unique Notes for Each Problem: Automatically generates a note for each LeetCode problem based on the problem's URL.
-Easy Note Management: Add, edit, or delete notes directly from the extension popup.
-Persistent Notes: Your notes are stored locally, ensuring they persist across sessions and refreshes.
-Intuitive UI: A clean, simple interface to view and manage your notes for better problem-solving tracking.
-#Installation
-Download the extension from the Chrome Web Store or install manually.
-To install manually:
-Download the repository to your local machine.
-Open Chrome, go to chrome://extensions/.
-Enable "Developer mode" at the top right.
-Click "Load unpacked" and select the folder where the extension files are stored.
-#Usage
-Navigate to any LeetCode problem.
+Features
+Problem-Specific Notes: Each LeetCode problem has its own unique note that is saved and displayed when revisiting the problem.
+Easy Note Editing: Add, edit, or delete notes directly through the extension's interface.
+Persistent Storage: Notes are stored locally and persist even after browser restarts or page refreshes.
+User-Friendly Interface: A simple and intuitive UI to view and manage your notes.
+Installation
+From the Chrome Web Store
+Search for "LeetCode Notes Taker" on the Chrome Web Store.
+Click Add to Chrome and follow the prompts to install.
+Manual Installation
+Clone the repository to your local machine:
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/leetcode-notes-taker.git
+Open Chrome and go to chrome://extensions/.
+Enable Developer mode (top-right toggle).
+Click on Load unpacked and select the folder where the extension files are located.
+Usage
+Open any LeetCode problem.
 Click on the extension icon in the Chrome toolbar.
-Add your notes in the provided text area.
-Your notes will be saved and shown the next time you open the same problem.
-#Contributing
-Feel free to fork this repository and submit pull requests for bug fixes, improvements, or new features. Contributions are welcome!
-
-#License
-This project is licensed under the MIT License - see the LICENSE file for details.
+A text box will appear where you can add or view your notes.
+Your notes are automatically saved and displayed whenever you visit the same problem again.
